@@ -39,11 +39,11 @@ Admins
 
 Run in localhost with url :http://localhost:3000/signIn
 
-For Function Add use URL : http://localhost:3000/addCompany
-For Function Remove use URL: http://localhost:3000/removeCompany
-For Function Update use URL : http://localhost:3000/updateCompany
-For Function Retrieve single company use URL : http://localhost:3000/retrieveCompany?name=mounika
-For Function Retrieve collection of companies use URL : http://localhost:3000/retrieveCompanies?numberOfCompanies=3&category=team
+-> For Function Add use URL : http://localhost:3000/addCompany
+-> For Function Remove use URL: http://localhost:3000/removeCompany
+-> For Function Update use URL : http://localhost:3000/updateCompany
+-> For Function Retrieve single company use URL : http://localhost:3000/retrieveCompany?name=mounika
+-> For Function Retrieve collection of companies use URL : http://localhost:3000/retrieveCompanies?numberOfCompanies=3&category=team
 
 
 
