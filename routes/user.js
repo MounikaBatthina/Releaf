@@ -167,6 +167,7 @@ exports.removeCompany= function(req, res){
 	  }
 };
 
+//Update Company Details
 exports.updateCompany= function(req, res){
 	if(req.session.admin_flag){	
 			var _id = req.body._id;
@@ -229,6 +230,7 @@ exports.updateCompany= function(req, res){
 	
 };
 
+//Retrieve Company with ID
 exports.retrieveCompany = function(req,res){
 	var name=req.param('name');
 	mongo.connect(mongoURL,function(){
@@ -267,6 +269,7 @@ exports.retrieveCompany = function(req,res){
 	});
 };
 
+//Retrieve collection of companies with given number of companies and category
 exports.retrieveCompanies= function(req,res){
 	var no_of_companies = Number(req.param('numberOfCompanies'));
 	var category=req.param('category');
